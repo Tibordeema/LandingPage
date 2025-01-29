@@ -3,17 +3,52 @@ body {
     padding: 0;
     margin: 0;
     background-color: #f0f0f0;
+    width: 100%;
+    min-height: 100vh;
 }
 
 .header{
     display: flex;
-    width: 80%;
-    max-width: 800px;
-    margin: 50px auto;
-    padding: 20px;
-    background-color: #1F2937 ;
-    border-radius: 10px;
-    color: rgb(255, 127, 227);
-    
+    max-width: 1200px;
+    background-color: #1F2937;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+}
 
+a{
+    text-decoration: none;
+    color: #e5e7eb;
+    margin-right: 10px;
+   
+}
+
+.hero {
+    display: flex;
+    background-color: #1F2937;
+    min-height: 200px;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+    padding-bottom: 50px;
+    
+}
+
+.hero h1{
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.hero-text p{
+    margin-top: -30px;
+}
+.button {
+    background-color:#3882F6 ;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 10px;
+    font-weight: bold
 }
