@@ -78,4 +78,43 @@ img {
     border-radius: 10px;
 }    
 
+.thirdsection {
+    
+    display: flex;
+    background-color: #e5e7eb;
+    min-height: 200px;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+    padding-bottom: 50px;
 
+}
+
+.quotetext{
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+
+}
+
+.cite {
+    display: flex;
+    font-weight: 900;
+    font-size: 25px;
+    justify-content: flex-end;
+    
+}
+
+.fourthsection{
+    display: flex;
+    background-color: #f5f7fc;
+    min-height: 200px;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+    padding-bottom: 50px;
+
+}
